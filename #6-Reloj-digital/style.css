@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: #00FF00;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+        }
+
+        #clock {
+            font-size: 10vw;
+            text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00;
+        }
+
+        @media (max-width: 600px) {
+            #clock {
+                font-size: 15vw;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1200px) {
+            #clock {
+                font-size: 12vw;
+            }
+        }
